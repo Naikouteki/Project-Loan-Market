@@ -2,11 +2,15 @@
   "routes":  [
     {
       "src": "/",
-      "dest": "/"
+      "dest": "/Dashboard.html"
     },
     {
-      "src": "/test",
-      "dest": "/"
+      "src": "/profile",
+      "dest": "/DataDiri.html"
+    },
+    {
+      "src": "/update-profile",
+      "dest": "/Update.html"
     }
   ]
 }
