@@ -1,0 +1,210 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.bodywarna{
+    background-color: #F2F2F2;
+}
+.wrapper{
+    position: relative;
+}
+.wrapper .sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;
+    background: #fff;
+    padding: 30px, 0;
+}
+.wrapper .sidebar h2{
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.wrapper .sidebar ul li{
+    padding: 15px;
+    border-bottom: 1px;
+    font-family: serif;
+    display: block;
+}
+.sidebar_menu{
+    font-family: serif;
+    
+}
+.wrapper .main_content{
+    width: 100%;
+    margin-left: 200px;
+}
+.wrapper .main_content .header{
+    padding: 30px;
+    background: #fff;
+    border-bottom: 1px solid #e0e4e8;
+    left: 100%;
+}
+.wrapper .main_content .info{
+    
+    background-color: white;
+}
+.gambarsize{
+    width: 20px;
+}
+.header{
+    font-size: large;
+    
+}
+.li{
+    list-style: none;
+}
+.a{
+    text-decoration: none;
+    font-size: 1rem;
+}
+.buttonlonceng{
+    background-color: white;
+}
+.imagenotification{
+    width: 42px;
+    height: 30px;
+    
+}
+.nav-link{
+    float: right;
+    border-left-style: double;
+    border-right-style: double;
+}
+.Namanav{
+    float: right;
+    padding-left: 10px;
+    padding-top: 5px;
+}
+.Dekstopnav{
+    font-size: x-large;
+
+}
+.gambarorang{
+    padding-left: 15px;
+    width: 50%;
+    padding-top: 15px;
+    padding-right: 15px;
+}
+.namadepan{
+    font-size: larger;
+    color: #17A9E2;
+
+
+}
+.gambarloan{
+    width: 10%;
+}
+.column1 {
+    float: left;
+    width: 15%;
+    padding: 10px;
+  }
+ .column2 {
+    float: left;
+    width: 50%;
+    font-size: larger;
+    padding-top: 18px;
+ }
+ .column3 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+  }
+  .column4 {
+    float: left;
+    width: 30%;
+    padding: 10px;
+  }
+  .column5 {
+    float: left;
+    width: 10%;
+    padding: 10px;
+  }
+  .column6 {
+    float: left;
+    width: 20%;
+    padding: 10px;
+  }
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .column {
+    float: left;
+    width: 25%;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+.column {
+      width: 25%;
+      text-align: center;
+  }
+  .column10 {
+    width: 2%;
+}
+.rowbawah{
+    padding-top: 50px;
+}
+.columnkesekian{
+    background-color: #fff;
+}
+
+.wrapper .main_content .body{
+    
+    background-color: F2F2F2;
+}
+.pemberitahuan{
+    font-size: larger;
+    padding-top: 15px;
+}
+
+.progresswrapper{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #fff;
+}
+.progress{
+    height: 100px;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #fff;
+    /* height: 80%;
+    width: 80%;
+    background: white;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 20px;
+
+    border-radius: 80%;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #fff; */
+}
+
+/* Tambahkan gaya untuk input, select, dan label yang menunjukkan error */
+input.error, select.error {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
+
+label.error {
+    color: red;
+    font-weight: bold;
+}

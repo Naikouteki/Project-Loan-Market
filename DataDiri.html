@@ -1,0 +1,925 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Navigation Bar</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="datadiri.css">
+    <a href="sript.js"></a>
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="bodywarna">
+    <div class="wrapper">
+        <div class="sidebar">
+            <div class="sidebar-header">
+                <div class="logo">Loan Market</div>
+            </div>
+            <ul class="menu">
+                <li>
+                    <a href="#">
+                        <image class="icon" src="src/homepage.png" style="width: 17%;"></image> Dashboard</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <image class="icon" src="src/Contact.png" style="width: 17%;"></image> Contact</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <image class="icon" src="src/Loan.png" style="width: 17%;"></image> Loan</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <image class="icon" src="src/Shopping Bag.png" style="width: 17%;"></image> Product <span class="arrow">▼</span></a>
+                </li>
+                <li>
+                    <a href="#">
+                        <image class="icon" src="src/Bank Building.png" style="width: 17%;"></image> Bank</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <image class="icon" src="src/Performance.png" style="width: 17%;"></image> Credit Scoring</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <image class="icon" src="src/Help.png" style="width: 17%;"></image> FAQ's</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <image class="icon" src="src/Layers.png" style="width: 17%;"></image> Pipeline</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <image class="icon" src="src/Layers.png" style="width: 17%;"></image> Pipeline Developer</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <image class="icon" src="src/Product Management.png" style="width: 17%;"></image> Marketing Tools</a>
+                </li>
+                <li>
+                    <a href="#">
+                        <image class="icon" src="src/WhatsApp.png" style="width: 17%;"></image>💬</i> Whatsapp</a>
+                </li>
+            </ul>
+        </div>
+        <!-- <div class="sidebar">
+            <h2>Loan Market</h2>
+            <ul class="sidebar_menu">
+               <li><a><img src="src/homepage.png" class="gambarsize"><i href="" style="padding-left: 10px;">Dashboard</i></a></li>
+               <li><a><img src="src/Contact.png" class="gambarsize"><i href="" style="padding-left: 10px;">Contact</i></a></li>
+               <li><a><img src="src/Loan.png" class="gambarsize"><i href="" style="padding-left: 10px;">Loan</i></a></li>
+               <li><a><img src="src/Shopping Bag.png" class="gambarsize"><i href="" style="padding-left: 10px;">Product</i></a></li>
+               <li><a><img src="src/Bank Building.png" class="gambarsize"><i href="" style="padding-left: 10px;">Bank</i></a></li>
+               <li><a><img src="src/Performance.png" class="gambarsize"><i href="" style="padding-left: 10px;">Credit Scoring</i></a></li>
+               <li><a><img src="src/Help.png" class="gambarsize"><i href="" style="padding-left: 10px;">FAQ's</i></a></li>
+               <li><a><img src="src/Layers.png" class="gambarsize"><i href="" style="padding-left: 10px;">Pipeline</i></a></li>
+               <li><a><img src="src/Layers.png" class="gambarsize"><i href="" style="padding-left: 10px;">Pipeline Developer</i></a></li>
+               <li><a><img src="src/Product Management.png" class="gambarsize"><i href="" style="padding-left: 10px;">Marketing Tools</i></a></li>
+               <li><a><img src="src/WhatsApp.png" class="gambarsize"><i href="" style="padding-left: 10px;">Whatsapp</i></a></li>
+            </ul>
+         </div> -->
+
+        <div class="main_content">
+            <div class="header">
+                <ul class="navbaritem">
+                    <a class="Dekstopnav" style="color: black;">EDIT APPLIACTION</a>
+                    <a class="Namanav">YOHANNES AFFANDY</a>
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    <img src="src/Notification.png" class="imagenotification">
+                    </a>
+                 </ul>
+              </div>
+              <section class="info">
+                  
+                  <html lang="en">
+                  <head>
+                      <title>Timeline Navigasi</title>
+                      <style>
+                          body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #f5f5f5;
+  }
+  
+  .container {
+      width: 80%;
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background: #fff;
+      border-radius: 8px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  h1 {
+      font-size: 24px;
+      color: #333;
+      margin-bottom: 10px;
+  }
+  
+  p {
+      font-size: 16px;
+      color: #666;
+      margin-bottom: 20px;
+  }
+  
+  .section {
+      margin-bottom: 30px;
+  }
+  
+  .section-header {
+      background-color: #0056b3;
+      color: #fff;
+      padding: 10px;
+      border-radius: 4px;
+      font-size: 18px;
+      margin-bottom: 15px;
+  }
+  
+  .field {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 10px;
+  }
+  
+  label {
+      font-size: 14px;
+      color: #333;
+      flex: 1;
+  }
+  
+  .upload-wrapper {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+  }
+  
+  .upload-btn {
+      background: #007bff;
+      color: #fff;
+      border: none;
+      padding: 8px 12px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s;
+      font-size: 14px;
+  }
+  
+  .upload-btn:hover {
+      background: #0056b3;
+  }
+  
+  .upload-icon {
+      font-size: 20px;
+      color: #007bff;
+  }
+  
+  .update-btn {
+      display: block;
+      width: 100%;
+      background: #28a745;
+      color: #fff;
+      padding: 10px;
+      border: none;
+      font-size: 16px;
+      border-radius: 4px;
+      cursor: pointer;
+      transition: background 0.3s;
+  }
+  
+  .update-btn:hover {
+      background: #218838;
+  }
+  
+                          body {
+                              font-family: Arial, sans-serif;
+                              margin: 20px;
+                          }
+                  
+                          .timeline {
+                              display: flex;
+                              align-items: center;
+                              justify-content: space-between;
+                              position: relative;
+                              
+                              max-width: 1200px;
+                          }
+                  
+                          .timeline::before {
+                              content: '';
+                              position: absolute;
+                              top: 50%;
+                              left: 0;
+                              width: 100%;
+                              height: 4px;
+                              background-color: #ddd;
+                              z-index: 1;
+                              transform: translateY(-50%);
+                          }
+                  
+                          .step {
+                              display: flex;
+                              flex-direction: column;
+                              align-items: center;
+                              position: relative;
+                              z-index: 2;
+                          }
+                  
+                          .step .circle {
+                              width: 20px;
+                              height: 20px;
+                              border-radius: 50%;
+                              background-color: #ddd;
+                              border: 2px solid #ddd;
+                              display: flex;
+                              align-items: center;
+                              justify-content: center;
+                              transition: background-color 0.3s ease, border-color 0.3s ease;
+                          }
+                  
+                          .step.active .circle {
+                              background-color: #005274;
+                              border-color: #005274;
+                          }
+                  
+                          .step.active + .step .circle {
+                              background-color: #005274;
+                          }
+                  
+                          .step span {
+                              margin-top: 10px;
+                              font-size: 12px;
+                              color: #777;
+                          }
+                  
+                          .step.active span {
+                              color: #005274;
+                          }
+                  
+                          .step.completed .circle {
+                              background-color: #005274;
+                              border-color: #005274;
+                          }
+                  
+                          .step.completed span {
+                              color: #005274;
+                          }
+  
+                          * {
+                               margin: 0;
+                              padding: 0;
+                              box-sizing: border-box;
+                              }
+  
+                              body {
+                                  font-family: Arial, sans-serif;
+                                  display: flex;
+                                  height: 100vh;
+                                  background-color: #f5f5f5;
+                              }
+  
+                              .sidebar {
+                                  position: fixed;
+                                  width: 250px;
+                                  height: 100%;
+                                  background-color: #fff;
+                                  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+                                  display: flex;
+                                  flex-direction: column;
+                                  padding-top: 20px;
+                              }
+  
+                              .sidebar-header {
+                                  text-align: center;
+                                  padding: 10px 0;
+                                  background-color: #007bff;
+                                  color: #fff;
+                                  font-size: 18px;
+                                  font-weight: bold;
+                              }
+  
+                              .logo {
+                                  padding: 10px 0;
+                              }
+  
+                              .menu {
+                                  list-style: none;
+                                  margin-top: 20px;
+                                  padding: 0;
+                              }
+  
+                              .menu li {
+                                  margin: 10px 0;
+                              }
+  
+                              .menu a {
+                                  display: flex;
+                                  align-items: center;
+                                  padding: 10px 20px;
+                                  text-decoration: none;
+                                  color: #333;
+                                  font-size: 14px;
+                                  transition: background-color 0.3s, color 0.3s;
+                              }
+  
+                              .menu a:hover {
+                                  background-color: #005274;
+                                  color: #fff;
+                              }
+  
+                              .icon {
+                                  margin-right: 15px;
+                                  font-size: 18px;
+                              }
+  
+                              .arrow {
+                                  margin-left: auto;
+                                  font-size: 12px;
+                              }
+  
+   
+                              .content {
+                                  margin-left: 250px;
+                                  padding: 20px;
+                                  flex-grow: 1;
+                                  background-color: #005274;
+                              }
+  
+                              .content h1 {
+                                  font-size: 24px;
+                                  margin-bottom: 10px;
+                              }
+  
+                              .content p {
+                                  font-size: 16px;
+                                  color: #666;
+                              }
+                              /* Tambahkan gaya untuk input, select, dan label yang menunjukkan error */
+                                input.error, select.error {
+                                    border: 2px solid red;
+                                    background-color: #ffe6e6;
+                                }
+
+                                label.error {
+                                    color: red;
+                                    font-weight: bold;
+                                }
+
+                      </style>
+                      <script>
+                        
+
+                      </script>
+                  </head>
+                  <body>
+                      <div class="timeline" style="padding: 30px;">
+                          <div class="step completed">
+                              <div class="circle"></div>
+                              <span>Pinjaman</span>
+                          </div>
+                          <div class="step completed">
+                              <div class="circle"></div>
+                              <span>Pekerjaan</span>
+                          </div>
+                          <div class="step active">
+                              <div class="circle"></div>
+                              <span>Alamat</span>
+                          </div>
+                          <div class="step">
+                              <div class="circle"></div>
+                              <span>Informasi Asset</span>
+                          </div>
+                          <div class="step">
+                              <div class="circle"></div>
+                              <span>Informasi Tambahan</span>
+                          </div>
+                          <div class="step">
+                              <div class="circle"></div>
+                              <span>Upload Dokumen</span>
+                          </div>
+                          <div class="step">
+                              <div class="circle"></div>
+                              <span>Review</span>
+                          </div>
+                          <div class="step">
+                              <div class="circle"></div>
+                              <span>Pilihan Produk & Bank</span>
+                          </div>
+                          <div class="step">
+                              <div class="circle"></div>
+                              <span>Bank Officer</span>
+                          </div>
+                          <div class="step">
+                              <div class="circle"></div>
+                              <span>Surat Keterangan</span>
+                          </div>
+                          <div class="step">
+                              <div class="circle"></div>
+                              <span>PDF CPA</span>
+                          </div>
+                          <div class="step">
+                              <div class="circle"></div>
+                              <span>Summary</span>
+                          </div>
+                      </div>
+            </div>
+            <section class="body">
+                <div class="row">
+                   <div class="col-sm" style="margin-top: 40px; margin-left: 40px;">
+                      afsdfsd
+ 
+             </section>
+             
+             <div class="row" style="padding-left: 110px;">
+                <div class="container">
+                  <!-- Section Data KTP -->
+                  <div class="section">
+                    <div class="section-header">Data KTP</div>
+                    <div class="section-body">
+                      <div class="form-group">
+                        <!-- <label for="alamat-ktp">Alamat Lengkap (Jalan, Komplek, RT/RW)</label>
+                        <input type="text" id="alamat-ktp" placeholder="--Isi Alamat Lengkap--"> -->
+                        <label for="alamat-ktp">Alamat Lengkap (Jalan, Komplek, RT/RW)</label>
+                        <input type="text" id="alamat-ktp" placeholder="--Isi Alamat Lengkap--" onkeydown="checkEnter(event)">
+                        <p id="error-message" style="color: red; display: none;">Isi terlebih dahulu</p>
+                        
+                        <label for="kodepos-ktp">Kode POS</label>
+                        <input type="text" id="kodepos-ktp" placeholder="--Isi Kode POS--">
+                      </div>
+                      <div class="form-group">
+                        <select id="provinsi">
+                          <option value="">--Pilih Provinsi--</option>
+                          <option value="Provinsi 1">Provinsi 1</option>
+                          <option value="Provinsi 2">Provinsi 2</option>
+                          <option value="Provinsi 3">Provinsi 3</option>
+                        </select>
+                        <select id="kabupaten">
+                          <option value="">--Pilih Kabupaten / Kota--</option>
+                          <option value="Kabupaten 1">Kabupaten 1</option>
+                          <option value="Kabupaten 2">Kabupaten 2</option>
+                          <option value="Kabupaten 3">Kabupaten 3</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <select id="kecamatan">
+                          <option value="">--Pilih Kecamatan--</option>
+                          <option value="Kecamatan 1">Kecamatan 1</option>
+                          <option value="Kecamatan 2">Kecamatan 2</option>
+                          <option value="Kecamatan 3">Kecamatan 3</option>
+                        </select>
+                        <select id="kelurahan">
+                          <option value="">--Pilih Kelurahan--</option>
+                          <option value="Kelurahan 1">Kelurahan 1</option>
+                          <option value="Kelurahan 2">Kelurahan 2</option>
+                          <option value="Kelurahan 3">Kelurahan 3</option>
+                        </select>
+                      </div>
+                      <div class="checkbox-group">
+                        <input type="checkbox" id="domisili-sesuai-ktp">
+                        <label for="domisili-sesuai-ktp">Domisili Sesuai KTP</label>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <!-- Section Data Domisili -->
+                  <div class="section">
+                    <div class="section-header">Data Domisili</div>
+                    <div class="section-body">
+                      <div class="form-group">
+                        <label for="alamat-domisili">Alamat Lengkap (Jalan, Komplek, RT/RW)</label>
+                        <input type="text" id="alamat-domisili" placeholder="--Isi Alamat Lengkap--">
+                        <label for="kodepos-domisili">Kode POS</label>
+                        <input type="text" id="kodepos-domisili" placeholder="--Isi Kode POS--">
+                      </div>
+                      <div class="form-group">
+                        <select id="provinsi-domisili">
+                          <option value="">--Pilih Provinsi--</option>
+                          <option value="Provinsi 1">Provinsi 1</option>
+                          <option value="Provinsi 2">Provinsi 2</option>
+                          <option value="Provinsi 3">Provinsi 3</option>
+                        </select>
+                        <select id="kabupaten-domisili">
+                          <option value="">--Pilih Kabupaten / Kota--</option>
+                          <option value="Kabupaten 1">Kabupaten 1</option>
+                          <option value="Kabupaten 2">Kabupaten 2</option>
+                          <option value="Kabupaten 3">Kabupaten 3</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <select id="kecamatan-domisili">
+                          <option value="">--Pilih Kecamatan--</option>
+                          <option value="Kecamatan 1">Kecamatan 1</option>
+                          <option value="Kecamatan 2">Kecamatan 2</option>
+                          <option value="Kecamatan 3">Kecamatan 3</option>
+                        </select>
+                        <select id="kelurahan-domisili">
+                          <option value="">--Pilih Kelurahan--</option>
+                          <option value="Kelurahan 1">Kelurahan 1</option>
+                          <option value="Kelurahan 2">Kelurahan 2</option>
+                          <option value="Kelurahan 3">Kelurahan 3</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <!-- Section Data Alamat Tempat Bekerja -->
+                  <div class="section">
+                    <div class="section-header">Data Alamat Tempat Bekerja</div>
+                    <div class="section-body">
+                      <div class="form-group">
+                        <label for="alamat-kerja">Alamat Lengkap (Jalan, Komplek, RT/RW)</label>
+                        <input type="text" id="alamat-kerja" placeholder="--Isi Alamat Lengkap--">
+                        <label for="kodepos-kerja">Kode POS</label>
+                        <input type="text" id="kodepos-kerja" placeholder="--Isi Kode POS--">
+                      </div>
+                      <div class="form-group">
+                        <select id="provinsi-kerja">
+                          <option value="">--Pilih Provinsi--</option>
+                          <option value="Provinsi 1">Provinsi 1</option>
+                          <option value="Provinsi 2">Provinsi 2</option>
+                          <option value="Provinsi 3">Provinsi 3</option>
+                        </select>
+                        <select id="kabupaten-kerja">
+                          <option value="">--Pilih Kabupaten / Kota--</option>
+                          <option value="Kabupaten 1">Kabupaten 1</option>
+                          <option value="Kabupaten 2">Kabupaten 2</option>
+                          <option value="Kabupaten 3">Kabupaten 3</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <select id="kecamatan-kerja">
+                          <option value="">--Pilih Kecamatan--</option>
+                          <option value="Kecamatan 1">Kecamatan 1</option>
+                          <option value="Kecamatan 2">Kecamatan 2</option>
+                          <option value="Kecamatan 3">Kecamatan 3</option>
+                        </select>
+                        <select id="kelurahan-kerja">
+                          <option value="">--Pilih Kelurahan--</option>
+                          <option value="Kelurahan 1">Kelurahan 1</option>
+                          <option value="Kelurahan 2">Kelurahan 2</option>
+                          <option value="Kelurahan 3">Kelurahan 3</option>
+                        </select>
+                      </div>
+                    </div>
+                  </div>
+              
+                  <!-- Button -->
+                  <button id="update-button" style="background-color: #005274;color: white;font-size: larger;">UPDATE</button>
+                </div>
+              </div>
+              
+        
+
+                
+            </div>
+            <script>
+               document.getElementById('update-button').addEventListener('click', function (event) {
+    const requiredFields = [
+        'alamat-ktp', 'kodepos-ktp', 'alamat-domisili', 'kodepos-domisili',
+        'alamat-kerja', 'kodepos-kerja', 'provinsi', 'kabupaten', 'kecamatan', 'kelurahan',
+        'provinsi-domisili', 'kabupaten-domisili', 'kecamatan-domisili', 'kelurahan-domisili',
+        'provinsi-kerja', 'kabupaten-kerja', 'kecamatan-kerja', 'kelurahan-kerja'
+    ];
+
+    let allFieldsFilled = true;
+
+    // Validasi input text
+    requiredFields.forEach(function (id) {
+        const field = document.getElementById(id);
+        if (field && field.value.trim() === '') {
+            field.classList.add('error'); // Tambahkan kelas error jika field kosong
+            allFieldsFilled = false;
+        } else {
+            field.classList.remove('error'); // Hapus kelas error jika terisi
+        }
+    });
+
+    // Cek jika semua field sudah terisi
+    if (!allFieldsFilled) {
+        event.preventDefault(); // Hentikan aksi default tombol
+        alert('Harap isi semua field yang wajib diisi!');
+    } else {
+        alert('Data berhasil diperbarui!');
+    }
+});
+
+// Menghapus tanda
+
+function checkEnter(event) {
+    // Check if the key pressed is Enter (key code 13)
+    if (event.key === 'Enter') {
+        const inputField = document.getElementById('alamat-ktp');
+        const errorMessage = document.getElementById('error-message');
+        
+        if (inputField.value.trim() === '') {
+            errorMessage.style.display = 'block';  // Show error message
+        } else {
+            errorMessage.style.display = 'none';  // Hide error message if input is filled
+        }
+    }
+}
+
+ </script>
+</body>
+
+<style>
+    /* Gaya untuk elemen yang belum diisi */
+.error {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
+
+/* Gaya untuk checkbox error */
+.checkbox-group input:invalid {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}
+
+
+
+   .section {
+            margin-bottom: 20px;
+            border: 1px solid #007bff;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        .section-header {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 15px;
+            font-size: 16px;
+            font-weight: bold;
+        }
+
+        .section-body {
+            padding: 15px;
+        }
+
+        .form-group {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            flex-basis: 100%;
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #333;
+        }
+
+        .form-group input,
+        .form-group select {
+            flex: 1;
+            padding: 10px;
+            font-size: 14px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            width: calc(50% - 10px);
+            margin-right: 10px;
+            margin-bottom: 10px;
+        }
+
+        .form-group input:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color: #007bff;
+        }
+
+        .checkbox-group {
+            display: flex;
+            align-items: center;
+            margin-bottom: 15px;
+        }
+
+        .checkbox-group input[type="checkbox"] {
+            margin-right: 10px;
+        }
+
+        .clear-button {
+            background-color: #ff4d4d;
+            color: white;
+            padding: 8px 12px;
+            font-size: 14px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        .clear-button:hover {
+            background-color: #cc0000;
+        }
+
+        .update-button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            font-size: 16px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            margin-top: 20px;
+            display: block;
+            width: 100%;
+            text-align: center;
+        }
+
+        .update-button:hover {
+            background-color: #0056b3;
+        }
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    width: 80%;
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+.section {
+    margin-bottom: 30px;
+}
+
+.section-header {
+    background-color: #0056b3;
+    color: #fff;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.field {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+label {
+    font-size: 14px;
+    color: #333;
+    flex: 1;
+}
+
+.upload-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.upload-btn {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+    font-size: 14px;
+}
+
+.upload-btn:hover {
+    background: #0056b3;
+}
+
+.upload-icon {
+    font-size: 20px;
+    color: #007bff;
+}
+
+.update-btn {
+    display: block;
+    width: 100%;
+    background: #28a745;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.update-btn:hover {
+    background: #218838;
+}
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        height: 100vh;
+        background-color: #f5f5f5;
+    }
+    
+    /* Sidebar Styles */
+    .sidebar {
+        position: fixed;
+        width: 250px;
+        height: 100%;
+        background-color: #fff;
+        box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        padding-top: 20px;
+    }
+    
+    .sidebar-header {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #007bff;
+        color: #fff;
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .logo {
+        padding: 10px 0;
+    }
+    
+    .menu {
+        list-style: none;
+        margin-top: 20px;
+        padding: 0;
+    }
+    
+    .menu li {
+        margin: 10px 0;
+    }
+    
+    .menu a {
+        display: flex;
+        align-items: center;
+        padding: 10px 20px;
+        text-decoration: none;
+        color: #333;
+        font-size: 14px;
+        transition: background-color 0.3s, color 0.3s;
+    }
+    
+    .menu a:hover {
+        background-color: #007bff;
+        color: #fff;
+    }
+    
+    .icon {
+        margin-right: 15px;
+        font-size: 18px;
+    }
+    
+    .arrow {
+        margin-left: auto;
+        font-size: 12px;
+    }
+    
+    /* Content Area Styles */
+    .content {
+        margin-left: 250px;
+        padding: 20px;
+        flex-grow: 1;
+        background-color: #005274;
+    }
+    
+    .content h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+    
+    .content p {
+        font-size: 16px;
+        color: #666;
+    }
+</style>
+
+</html>
